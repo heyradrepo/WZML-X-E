@@ -2,11 +2,11 @@
 class WZMLStyle:
     # ----------------------
     # async def start(client, message) ---> __main__.py
-    ST_BN1_NAME = 'Repos'
+    ST_BN1_NAME = 'Repo'
     ST_BN1_URL = 'https://github.com/heyradrepo/WZML-X-E'
     ST_BN2_NAME = 'Owner'
     ST_BN2_URL = 'https://t.me/xyradelw'
-    ST_MSG = '''<i>Hai Aku dapat mencerminkan semua tautan|file|torrent Anda ke Google Drive atau cloud rclone mana pun atau ke telegram atau ke server ddl.</i>
+    ST_MSG = '''<i>Hai Aku {context.bot.name} dapat mencerminkan semua tautan|file|torrent Anda ke Google Drive atau cloud rclone mana pun atau ke telegram atau ke server ddl.</i>
 <b>Ketik {help_command} untuk mendapat daftar perintahnya</b>'''
     ST_BOTPM = '''<i>Sekarang, aku akan mengirim semuanya di sini. Mulailah ...</i>'''
     ST_UNAUTH = '''<i>Oh sayang sekali, Kamu bukan user yang di izinkan, buat versi mu sendiri</i>'''
